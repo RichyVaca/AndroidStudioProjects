@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="etiBtnCalcular">Calcular</string>
+    <string name="etiBtnOtro">Nuevo</string>
+    <string name="etiBtnSalir">Salir</string>
+</resources>

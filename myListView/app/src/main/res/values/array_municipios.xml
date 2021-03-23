@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayMunicipios">
+        <item>Armeria</item>
+        <item>Colima</item>
+        <item>Comala</item>
+        <item>Coquimatlan</item>
+        <item>Cuauhtemoc</item>
+        <item>Ixtlahuacan</item>
+        <item>Manzanillo</item>
+        <item>Minatitlan</item>
+        <item>Tecoman</item>
+        <item>Villa de Alvarez</item>
+    </string-array>
+
+</resources>
