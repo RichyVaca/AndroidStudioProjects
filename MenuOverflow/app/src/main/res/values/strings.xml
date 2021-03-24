@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MenuOverflow</string>
+    <string name="opc1">Sumar</string>
+    <string name="opc2">Restar</string>
+    <string name="opc3">Multiplicar</string>
+    <string name="opc4">Dividir</string>
+    <string name="salir">Salir</string>
+</resources>
