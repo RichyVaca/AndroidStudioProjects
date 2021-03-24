@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog.Builder win = new AlertDialog.Builder(this);
             win.setTitle("Atencion");
             win.setMessage("Salir de la aplicacion");
-            win.setPositiveButton("Aceptar", ((dialogInterface, ) -> {
+            win.setPositiveButton("Aceptar", ((dialogInterface) -> {
                 salir();
             }));
             win.create();
