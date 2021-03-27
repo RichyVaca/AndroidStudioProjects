@@ -43,11 +43,17 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog.Builder win = new AlertDialog.Builder(this);
             win.setTitle("Atencion");
             win.setMessage("Salir de la aplicacion");
-            win.setPositiveButton("Aceptar", ((dialogInterface) -> {
+            win.setPositiveButton("Aceptar", ((dialogInterface, i1) -> {
                 salir();
             }));
             win.create();
             win.show();
+        }
+        else if (i == R.id.iconoBuscar){
+            Toast.makeText(this, "Seleccionaste buscar", Toast.LENGTH_SHORT).show();
+        }
+        else if (i == R.id.iconShare){
+            Toast.makeText(this, "Seleccionaste Share", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }

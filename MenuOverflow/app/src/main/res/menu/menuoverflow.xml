@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/iconoBuscar"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/iconShare"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="share"
+        app:showAsAction="always" />
+
+
     <item
         android:id="@+id/suma"
-        android:icon="@drawable/suma"
+        android:icon="@drawable/ic_baseline_add_circle_24"
         android:title="@string/opc1"
 
-    />
+        android:visible="true" />
     <item
         android:id="@+id/resta"
-        android:title="@string/opc2"
-    />
+        android:icon="@drawable/ic_baseline_remove_circle_24"
+        android:title="@string/opc2" />
     <item
         android:id="@+id/multiplica"
-        android:title="@string/opc3"
-    />
+        android:icon="@drawable/ic_baseline_close_24"
+        android:title="@string/opc3" />
     <item
         android:id="@+id/dividir"
-        android:title="@string/opc4"
-    />
+        android:icon="@drawable/ic_baseline_compress_24"
+        android:title="@string/opc4" />
     <item
         android:id="@+id/salir"
-        android:title="@string/salir"
-    />
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/salir" />
+
 </menu>
